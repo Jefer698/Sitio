@@ -1,0 +1,122 @@
+
+        @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+       *{
+           font-family: verdana,serif,sans-serif;
+       }
+       nav{
+       }
+    
+       nav ul{
+                list-style:none;
+       
+            }
+       nav ul li{
+           display:inline;
+         margin-right:20px;
+            
+       }
+        nav ul li a{
+            color:black;
+            border:none;
+     
+        }
+        nav ul li a:hover{
+             color:#2FC5C4;
+            
+        }
+       section{
+           padding:120px;
+          justify-content: center;
+       }
+.recuperar{
+         background: none;
+           margin-right: auto;
+           margin-left: auto;
+           width:750px;
+           text-align: center;
+           border-radius: 20px;
+           padding:10px;
+           outline: none;
+           box-shadow: 0px 2px 3px 0px rgb(0,0,0,12);
+           
+
+       }
+
+div label{
+    font-size: 150%;
+    
+}    
+       input{
+           
+           display:block;
+           width:100%;
+           font-size: 130%;
+           background: none;
+           outline: none;
+           background-color:lightblue;
+           border-color: none;
+           margin-bottom: 10px;
+           margin-top: 10px;
+          
+      
+           
+       }
+     .recuperar2 div{
+           
+           text-align:left;
+           margin:20px;
+         
+         
+       }
+  
+       .link{
+           text-align: center;
+          font-size:110%;
+           padding: 10px;
+       }
+        .link2{
+           text-align: center;
+          font-size:110%;
+           padding: 10px;
+       }
+        .link a:hover{
+             color:#2FC5C4;
+        }
+        
+        .link2 a:hover{
+            color:#2FC5C4;
+        }
+        
+       .imagen{
+        text-align: center;
+        
+       }
+       .avatar{
+              border-radius: 90%;
+           padding:none;
+       }
+      
+    
+       .mensaje{
+           display:inline;
+       }
+       .mensaje2{
+            display:inline;
+       }
+        .boton {
+            background-color: royalblue;
+            border-color: royalblue;
+                font-size: 150%;  
+      color:white;
+        
+}
+
+.boton:hover{
+            background-color: royalblue;
+            border-color: royalblue;
+            color:#2FC5C4;
+               font-size: 150%;
+            
+        }
+       
+      
