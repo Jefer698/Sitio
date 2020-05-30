@@ -3,40 +3,40 @@
    <head>
            <meta charset="utf-8">
        <link rel="stylesheet" href="estilo2.css"/>
-          
+
 
     <title>Registro</title>
-    
+
         </head>
-    
-    
+
+
 <body background="C:\Users\jeffe\OneDrive\Escritorio\FONDOS\fondo4.png">
  <header>
     <nav>
      <ul>
-  
+
       <li> <a href="#">Contacto</a></li>
-        
+
         </ul>
-     
+
      </nav>
-    
-    
-    </header> 
+
+
+    </header>
     <section>
         <div class=imagen>
-            
+
             <img class="avatar" src="C:\Users\jeffe\OneDrive\Escritorio\FONDOS\logo2.jpg" >
-           
+
         </div>
-            
-    
+
+
  <div class="registro">
             <header>
-            <h2>Registro</h2>
-            
+            <h2>Registrese</h2>
+
             </header>
-       
+
            <form class="register">
                <div>
                <label>Correo</label>
@@ -54,14 +54,14 @@
                 <i class="fas fa-lock" ></i>
                     <input id="password" type=password placeholder="Ingrese contraseña"required minlength="4" maxlength="8" />
                       <input  type="button"value="Mostrar/Ocultar" id="pass" />
-               
+
                </div>
                  <div>
                <label>Confirme contraseña</label>
                 <i class="fas fa-lock" ></i>
                     <input id="confirmacion" type=password placeholder="Ingrese contraseña"required >
                           <input  type="button"value="Mostrar/Ocultar" id="confir" />
-               
+
                </div>
                <div>
                <label>Navegadores Preferidos</label>
@@ -73,14 +73,14 @@
                      <option value="microsoft-edge"> Microsoft Edge </option>
 
                    </select>
-               
-               
+
+
                </div>
                <div>
                <label>Descripción</label>
                    <textarea rows="8"></textarea>
-                
-               
+
+
                </div>
                <div>
                <label>Lenguaje de Promación Preferido</label>
@@ -89,34 +89,34 @@
                 <option>Javascript</option>
                  <option>Python</option>
                        <option>Java</option>
-                   
+
                    </datalist>
-               
+
                </div>
                <div>
-                
+
                <label>Edad</label>
             <input type="number" min="1" max="150"/>
-                 
-              
+
+
                </div>
                <div>
                <label>Fecha de hoy</label>
-                 
+
                    <output >28/04/2020  </output>
-               
-               
+
+
                </div>
-              
-   
+
+
              <button id="boton" >Registrar</button>
         </form>
              <div class ="link3">
       <p class="mensaje3">Estas registrado?</p>  <a href="login2.html">Login</a>
-        
-                </div> 
-            
-           
+
+                </div>
+
+
              </div>
           </section>
     <footer/>
@@ -124,8 +124,8 @@
         function validadConfirmacion(evento){
             const campopass= document.getElementById('password');
             const campoconfi= document.getElementById('confirmacion');
-            
-            
+
+
             const password= campopass.value;
              const confirmacion = campoconfi.value;
            if(password!=confirmacion){
@@ -136,15 +136,15 @@
             else{
                 campopass.classList.remove('Inputconerror');
                      campoconfi.classList.remove('Inputconerror');
-                
+
             }
-            
+
         }
       document.getElementById('boton').onclick=validadConfirmacion;
-         
+
      function showP(){
            const campopass= document.getElementById('password');
-           
+
         const a=campopass;
         if(a.type=="password"){
             a.type="text";
@@ -152,11 +152,11 @@
         else{
             a.type="password";
         }
-        
-    } 
+
+    }
             document.getElementById('pass').onclick=showP;
-       
-        
+
+
           function showP1(){
                const campoconfi= document.getElementById('confirmacion');
         const confi=campoconfi;
@@ -166,14 +166,14 @@
         else{
             confi.type="password";
         }
-        
+
     }
             document.getElementById('confir').onclick=showP1;
-    
+
 
     </script>
 
-    
+
     </body>
 
 
